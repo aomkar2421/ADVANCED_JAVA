@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
+	<form action="cookie">
+		<input type="text" name="uname">
+		<input type="submit">
+	</form>
 </body>
 </html>

@@ -7,7 +7,7 @@
 	</servlet>
   	<servlet-mapping>
   		<servlet-name>s1</servlet-name>
-  		<url-pattern>/first</url-pattern>
+  		<url-pattern>/cookie</url-pattern>
   	</servlet-mapping>
   	
   	
@@ -17,7 +17,7 @@
 	</servlet>
   	<servlet-mapping>
   		<servlet-name>s2</servlet-name>
-  		<url-pattern>/second</url-pattern>
+  		<url-pattern>/serv2</url-pattern>
   	</servlet-mapping>
   	
   	
