@@ -8,14 +8,23 @@
 body{
 	/*background: rgb(63,94,251);
 	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);*/
-	background-image: url("./images/bgimage2.jpg");
-	background-size: contain;
+	background-image: url("./Images/Img4.jpg");
+	background-size: cover;
 	width: 100vw;
 	height: 100vh;
 	/*justify-content: center;
 	align-items: center;
 	align-content: center;*/
 }
+
+.f{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 420px;
+}
+
 
 form{
 	margin: auto;

@@ -21,5 +21,15 @@
   	</servlet-mapping>
   	
   	
+  	<servlet>
+		<servlet-name>s3</servlet-name>
+		<servlet-class>RegistrationModule.Register</servlet-class>
+	</servlet>
+  	<servlet-mapping>
+  		<servlet-name>s3</servlet-name>
+  		<url-pattern>/register</url-pattern>
+  	</servlet-mapping>
+  	
+  	
   	
 </web-app>
