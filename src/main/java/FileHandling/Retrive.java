@@ -14,11 +14,11 @@ import java.sql.SQLException;
 public class Retrive {
 	public static void main(String[] args) throws SQLException, IOException {
 		
-		File file = new File("sample1.pdf");
+		File file = new File("sampleimage1.jpg");
 		FileOutputStream fos = new FileOutputStream(file);
 		
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/large", "root","root");
-		PreparedStatement ptst = connection.prepareStatement("select * from binaryData where id=1");
+		PreparedStatement ptst = connection.prepareStatement("select * from binaryData where id=6");
 		
 		ResultSet rs = ptst.executeQuery();
 		

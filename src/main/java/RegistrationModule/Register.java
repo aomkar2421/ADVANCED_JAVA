@@ -28,6 +28,7 @@ public class Register extends HttpServlet{
 		String pass = req.getParameter("upass");
 		String mail = req.getParameter("umail");
 		Part part = req.getPart("imgfile");
+		
 		String fname = part.getSubmittedFileName();
 		out.println(fname);
 
@@ -48,8 +49,8 @@ public class Register extends HttpServlet{
 			byte [] data = new byte [is.available()];
 
 			is.read(data);
-//			String path = "/ADVANCED_JAVA/src/main/webapp/image"+fname;
-			String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "webapp" + File.separator + "image" + File.separator + fname;
+			String path = "D:\\Utilities\\Files\\"+fname;
+//			String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + "webapp" + File.separator + "image" + File.separator + fname;
 
 			out.println(path);
 

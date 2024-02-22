@@ -18,7 +18,7 @@ public class Strore {
 		FileInputStream fis = new FileInputStream(file);
 		
 		ptst.setString(1, file.getName());
-		ptst.setBinaryStream(2, fis, file.length());
+		ptst.setBinaryStream(2, fis);
 		ptst.execute();
 		
 		System.out.println("Operation Completed");
