@@ -86,7 +86,7 @@
 	                processData: false,  // Use colons instead of semicolons
 	                contentType: false   // Use colons instead of semicolons
 	            });
-
+				
 	        });
 	    });
 	</script>
@@ -99,3 +99,4 @@
 </style>
 
 </html>
+
