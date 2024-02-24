@@ -7,6 +7,8 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
+	
+	
 		<form action="">
 			<input type="text" placeholder="Enter Name" name="stdname"> <br><br>
 			<input type="text" placeholder="Enter id" name="sid"> <br><br>
