@@ -11,12 +11,7 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
-		<%!
-			int a = 100;
-			int b = 10;
-		%>
-		
-		<h1>Division is = <%=a/b %> </h1>
-		
+		<h1>Something Is Wrong</h1>
+		<h3><%=exception %></h3>
 	</body>
 </html>
